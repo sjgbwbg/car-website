@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Collection</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2em;
+        }
+        .car-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 1em;
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .car-card:hover {
+            transform: scale(1.03);
+        }
+        .car-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .car-details {
+            padding: 1em;
+        }
+        .car-details h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .car-details p {
+            color: #666;
+            margin-top: 0.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Car Collection</h1>
+        <p>Curated collection of classic and exotic cars</p>
+    </header>
+
+    <div class="container">
+        <div class="Ferrari F40">
+            <img src="C:\Users\acer\OneDrive\Pictures\Screenshots\download (1).jpg">
+            <div class="car-details">
+                <h2>Ferrari F40</h2>
+                <p>An icon of the 80s, known for its aggressive styling and twin-turbo V8 engine.</p>
+            </div>
+        </div>
+
+        <div class="Ford GT40">
+            <img src="C:\Users\acer\OneDrive\Pictures\Screenshots\download.jpg">
+            <div class="car-details">
+                <h2>Ford GT40</h2>
+                <p>Legendary Le Mans winner built to beat Ferrari in endurance racing.</p>
+            </div>
+        </div>
+
+        <div class="Lamborghini Countach">
+            <img src="C:\Users\acer\OneDrive\Pictures\Screenshots\download (2).jpg">
+            <div class="car-details">
+                <h2>Lamborghini Countach</h2>
+                <p>Futuristic wedge design and a V12 engine make this a 1980s dream car.</p>
+            </div>
+        </div>
+	<div class="bmw m5">
+            <img src="C:\Users\acer\OneDrive\Pictures\Screenshots\download (4).jpg">
+            <div class="car-details">
+                <h2>bmw m5</h2>
+                <p>The BMW M5 is a high-performance variant of the BMW 5 Series marketed under the BMW M sub-brand.</p>
+            </div>
+        </div>
+
+	<div class="honda civic">
+            <img src="C:\Users\acer\OneDrive\Pictures\Screenshots\download (3).jpg">
+            <div class="car-details">
+                <h2>honda civic</h2>
+                <p>The first-generation Civic was introduced in July 1972 as a two-door fastback sedan.</p>
+            </div>
+        </div>
+
+
+		
+
+        <!-- Add more car cards as needed -->
+    </div>
+
+</body>
+</html>
